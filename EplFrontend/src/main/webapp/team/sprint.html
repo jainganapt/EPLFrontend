@@ -2,16 +2,22 @@
 <html lang="en">
 
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
 <style>
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    width: 50%;
 }
 
 #customers td, #customers th {
     border: 1px solid #ddd;
-    padding: 3px;
+    padding: 4px;
 }
 
 #customers tr:nth-child(even){background-color: #f2f2f2;}
@@ -19,25 +25,43 @@
 #customers tr:hover {background-color: #ddd;}
 
 #customers th {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     text-align: left;
-    background-color: #2E86C1;;
+    background-color: #2E86C1;
+    color: white;
+}
+
+------
+
+.vertical-menu {
+    width: 100px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
     color: white;
 }
 .foot {
   float: right;
   color: white;
 }
-
 .foot:hover 
 	{color: white;}
 
 </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>Full Slider - Start Bootstrap Template</title>
 
@@ -50,97 +74,89 @@
   </head>
 
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Ensemble Premier leauge -2018</a>
+        <a class="navbar-brand" href="#">Ensemble Premier leauge -Edition(2)</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
+            <li class="nav-item ">
+              <a class="nav-link" href="./../index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teams.html">Teams</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Schedule.html">Schedule & Results</a>
+              <a class="nav-link" href="./../teams.html">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./../Schedule.html">Schedule & Results</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="pointtable.html">PointTable</a>
+              <a class="nav-link" href="./../pointtable.html">PointTable</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="Rules.html">Rules</a>
+              <a class="nav-link" href="./../Rules.html">Rules</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
-	<h5><br> this is Points tables page </h5>
+   <h1>teams</h1>
+<div class="vertical-menu">
+  <a href="#" class="active">Sprint</a>
+</div>
+  
+  <table id="customers">
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+   <tr>
+    <td>Shrikant Mantri </td>
+    <td>Captain/Batsman</td>
+  </tr>
+  </table>
+
 	
-<table id="customers">
-  <tr>
-    <th>Date & Venue</th>
-    <th>Match</th>
-    <th>Results</th>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td><a href="./scoreboard/match1.html" style="display:block;">&nbsp;TMO1 won by 6 wkt [Full Scoreboard]</a></td>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>04-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>05-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>06-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>07-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-  <tr>
-    <td>03-Dec-2018 , Gliding Center,Pune </td>
-    <td>TMO1 Vs TMO2</td>
-    <td>----------</td>
-  </tr>
-</table>
 	<!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -154,7 +170,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
-
+     
   </body>
 
 </html>

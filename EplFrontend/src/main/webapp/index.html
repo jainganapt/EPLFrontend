@@ -17,12 +17,38 @@
     <link href="/css/myapp.css" rel="stylesheet">
 
   </head>
+  <style>
+  <style>
+.navbar-default div {
+    display:table;
+    width: 100%;
+}
+.navbar-default ul li {
+    display: table-cell;
+    height:60px;
+    text-align: center;
+    vertical-align: left;
+     padding: 70px;
+    
+}
+.foot {
+  float: right;
+  color: white;
+}
+.foot:hover 
+	{color: white;}
+
+
+
+  
+  </style>
 
   <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
+      
         <a class="navbar-brand" href="#">Ensemble Premier leauge - 2018</a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,11 +67,11 @@
             <li class="nav-item">
               <a class="nav-link" href="Schedule.html">Schedule & Results</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="pointtable.html">PointTable</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="Rules.html">Rules</a>
             </li>
           </ul>
         </div>
@@ -78,7 +104,7 @@
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
-           <div class="carousel-item" style="background-image: url('./image/sachin.jpg')">
+           <div class="carousel-item" style="background-image: url('./image/winner.png')">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -103,7 +129,10 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
+       
       <div class="container">
+        <a class="m-0 text-left text-white" href="./contact.html"> Contact-Us </a>
+        <a class="foot" href="./contact.html">Feedback </a>
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
       </div>
       <!-- /.container -->

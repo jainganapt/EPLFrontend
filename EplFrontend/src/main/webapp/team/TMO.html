@@ -12,12 +12,12 @@
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 70%;
+    width: 100%;
 }
 
 #customers td, #customers th {
     border: 1px solid #ddd;
-    padding: 4px;
+    padding: 8px;
 }
 
 #customers tr:nth-child(even){background-color: #f2f2f2;}
@@ -25,18 +25,43 @@
 #customers tr:hover {background-color: #ddd;}
 
 #customers th {
-    padding-top: 5px;
-    padding-bottom: 6px;
+    padding-top: 12px;
+    padding-bottom: 10px;
     text-align: left;
     background-color: #2E86C1;
     color: white;
 }
+
+------
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 .foot {
   float: right;
   color: white;
 }
 .foot:hover 
 	{color: white;}
+
 </style>
 
     <title>Full Slider - Start Bootstrap Template</title>
@@ -53,98 +78,58 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Ensemble Premier leauge -2018</a>
+        <a class="navbar-brand" href="#">Ensemble Premier leauge -Edition(2)</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
+            <li class="nav-item active">
+              <a class="nav-link" href="./../index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="teams.html">Teams</a>
+              <a class="nav-link" href="./../teams.html">Teams</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Schedule.html">Schedule & Results</a>
+              <a class="nav-link" href="./../Schedule.html">Schedule & Results</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="pointtable.html">PointTable</a>
+              <a class="nav-link" href="./../pointtable.html">PointTable</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="Rules.html">Rules</a>
+              <a class="nav-link" href="./../Rules.html">Rules</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
    <h1>teams</h1>
-  	<table id="customers">
+<div class="vertical-menu">
+  <a href="#" class="active">Sprint</a>
+</div>
+  
+  <table id="customers">
   <tr>
-    <th>Team</th>
-    <th>Captain</th>
+    <th>Name</th>
+    <th>Role</th>
     <th>Email</th>
     <th>Phone</th>
-    <th>Full Squad</th>
   </tr>
   <tr>
     <td>Sprint </td>
-    <td>Deepak Chintala</td>
+    <td>Captain/Batsman</td>
     <td>deepak.chintala@amdocs.com</td>
     <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/sprint.html" style="display:block;">&nbsp;Click here</a></td>
-  </tr>
-  <tr>
-    <td>TMO </td>
-    <td>Ganpat Chand</td>
-    <td>ganpat.chand@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/Bell.html" style="display:block;">&nbsp;Click here</a></td>
-  </tr>
-  <tr>
-    <td>TMO2 </td>
-    <td>Aashish Pathak</td>
-    <td>aashish.pathak@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/Cricket.html" style="display:block;">&nbsp;Click here</a></td>
-  </tr>
-  <tr>
-    <td>BELL </td>
-    <td>Harshal Wagh</td>
-    <td>Harshal.wagh@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/Telus.html" style="display:block;">&nbsp;Click here</a></td>
-  </tr>
-  <tr>
-    <td>Wireless-Cricket </td>
-    <td>Yuvraj Singh</td>
-    <td>Yuraj.singh@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/TMO.html" style="display:block;">&nbsp;Click here</a></td>
   </tr>
   <tr>
     <td>Sprint </td>
-    <td>Shrikant Mantri</td>
+    <td>Captain/Batsman</td>
     <td>deepak.chintala@amdocs.com</td>
     <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/sprint.html" style="display:block;">&nbsp;Click here</a></td>
-    <tr>
-    <td>Sprint </td>
-    <td>Deepak Chintala</td>
-    <td>Shrikant.mantri@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/sprint.html" style="display:block;">&nbsp;Click here</a></td>
   </tr>
-  <tr>
-    <td>Sprint </td>
-    <td>Deepak Chintala</td>
-    <td>deepak.chintala@amdocs.com</td>
-    <td>+91XXXXXXXXXXX</td>
-    <td><a href="./team/sprint.html" style="display:block;">&nbsp;Click here</a></td>
-  </tr>
-</table>
+  </table>
 
 	
 	<!-- Footer -->

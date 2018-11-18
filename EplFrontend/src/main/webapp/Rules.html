@@ -3,6 +3,42 @@
 
   <head>
 
+<style>
+
+#bullets {list-style-type:disc;
+          padding-left: 40px;
+           padding-right: 15px; }
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #2E86C1;
+    color: white;
+}
+.foot {
+  float: right;
+  color: white;
+}
+.foot:hover 
+	{color: white;}
+</style>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -23,13 +59,13 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Ensemble Premier leauge -Edition(2)</a>
+        <a class="navbar-brand" href="#">Ensemble Premier leauge -2018</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
@@ -41,23 +77,44 @@
               <a class="nav-link" href="Schedule.html">Schedule & Results</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="pointtable.html">PointTable</a>
+            </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="Rules.html">Rules</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  <h1>hello</h1>
+  <table id="customers">
+  <tr>
+    <th>EPL Rules</th>
+  </tr>
+  </table>
 
-<h1> <br> EPL Rules <br></h1>
-    <h5>1. </h5>
-    <h5>2. </h5>
+<ul id="bullets">
+  <li>Each team is made up of 11 players.</li>
+  <li>The bowler must bowl 6 legal deliveries to constitute an over.</li>
+  <li>A game must have two umpires stood at either end of the wicket. The umpires then must count the number of balls in the over, make decisions on whether the batsmen is out after an appeal and also check that the bowler has bowled a legal delivery.</li>
+  <li>A batsmen can be given out by either being bowled ( the ball hitting their stumps), caught (fielder catches the ball without it bouncing)</li>
+  <li> Leg Before Wicket (the ball hits the batsmen’s pads impeding its line into the stumps), stumped (the wicket keeper strikes the stumps with their gloves whilst the batsmen is outside of their crease with ball in hand)</li>
+  <li> hit wicket (the batsmen hits their own wicket), Handled ball ( the batsmen handles the cricket ball on purpose), timed out (the player fails to reach the crease within 30 seconds of the previous batsmen leaving the field),
+  <li> hit ball twice (batsmen hits the cricket ball twice with their bat) and obstruction ( the batsmen purposely prevents the fielder from getting the ball).</li>
+  <li>The scores are then cumulative and the team with the most runs after each innings is the winner.</li>
+  <li>One Day cricket in played with 50 overs. Each team has 50 overs to bat and bowl before swapping and doing the previous discipline. The team with the most runs at the end of the game wins</li>
+  <li>International games will have a further two umpires known as the third and fourth umpire. These are in place to review any decisions that the on field umpires are unable to make.</li>
+ <li>The fielding team must have one designated wicket keeper who is the only person allow to wear pads and gloves on the field. The wicket keeper stands behind the opposite end to the bowler  to catch the ball.</li>
+</ul> 
+
+
+
   </body>
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
+        <a class="m-0 text-left text-white" href="./contact.html"> Contact-Us </a>
+        <a class="foot" href="./contact.html">Feedback </a>
         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
       </div>
       <!-- /.container -->
